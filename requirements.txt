@@ -1,0 +1,7 @@
+PySide6>=6.8.0
+scapy>=2.5.0
+pandas>=2.0.0
+openai>=1.12.0
+httpx>=0.26.0
+geoip2>=4.8.0
+rich>=13.0.0

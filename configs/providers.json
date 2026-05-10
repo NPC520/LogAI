@@ -1,0 +1,321 @@
+[
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "OpenAI",
+        "api_base": "https://api.openai.com/v1",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Groq",
+        "api_base": "https://api.groq.com/openai/v1",
+        "api_key": "",
+        "default_model": "mixtral-8x7b-32768"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Ollama",
+        "api_base": "http://localhost:11434",
+        "api_key": "",
+        "default_model": "qwen2.5:7b"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "DeepSeek",
+        "api_base": "https://api.deepseek.com/v1",
+        "api_key": "",
+        "default_model": "deepseek-chat"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Google Gemini",
+        "api_base": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "api_key": "",
+        "default_model": "gemini-2.0-flash"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Anthropic",
+        "api_base": "https://api.anthropic.com/v1",
+        "api_key": "",
+        "default_model": "claude-3-5-sonnet-20241022"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Kimi Coding Plan",
+        "api_base": "https://api.moonshot.cn/v1",
+        "api_key": "",
+        "default_model": "moonshot-v1-8k"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Moonshot",
+        "api_base": "https://api.moonshot.cn/v1",
+        "api_key": "",
+        "default_model": "moonshot-v1-8k"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "MiniMax",
+        "api_base": "https://api.minimax.chat/v1",
+        "api_key": "",
+        "default_model": "abab6.5s-chat"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "MiniMax Token Plan",
+        "api_base": "https://api.minimax.chat/v1",
+        "api_key": "",
+        "default_model": "abab6.5s-chat"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "xAI",
+        "api_base": "https://api.x.ai/v1",
+        "api_key": "",
+        "default_model": "grok-beta"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Zhipu",
+        "api_base": "https://open.bigmodel.cn/api/paas/v4",
+        "api_key": "",
+        "default_model": "glm-4-plus"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "LongCat",
+        "api_base": "https://api.longcat.chat/v1",
+        "api_key": "",
+        "default_model": "longcat-chat"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "AlHubMix",
+        "api_base": "https://api.alhubmix.com/v1",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "OpenRouter",
+        "api_base": "https://openrouter.ai/api/v1",
+        "api_key": "",
+        "default_model": "openai/gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "NVIDIA",
+        "api_base": "https://integrate.api.nvidia.com/v1",
+        "api_key": "",
+        "default_model": "nvidia/llama-3.1-nemotron-70b-instruct"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Azure OpenAI",
+        "api_base": "",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "LM Studio",
+        "api_base": "http://localhost:1234/v1",
+        "api_key": "",
+        "default_model": "local-model"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Gemini OpenAI API",
+        "api_base": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "api_key": "",
+        "default_model": "gemini-2.0-flash"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "302.AI",
+        "api_base": "https://api.302.ai/v1",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "SiliconFlow",
+        "api_base": "https://api.siliconflow.cn/v1",
+        "api_key": "",
+        "default_model": "Qwen/Qwen3.6-35B-A3B"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "PPIO",
+        "api_base": "https://api.ppio.ai/v1",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "TokenPony",
+        "api_base": "",
+        "api_key": "",
+        "default_model": ""
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Compshare",
+        "api_base": "https://api.compshare.cn/v1",
+        "api_key": "",
+        "default_model": "gpt-4o"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "ModelScope",
+        "api_base": "https://api.modelscope.cn/v1",
+        "api_key": "",
+        "default_model": "qwen-max"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "FastGPT",
+        "api_base": "",
+        "api_key": "",
+        "default_model": ""
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "OpenAI Compatible",
+        "api_base": "",
+        "api_key": "",
+        "default_model": ""
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "AIping",
+        "api_base": "https://aiping.cn/api/v1",
+        "api_key": "",
+        "default_model": "Qwen3.5-35B-A3B"
+    },
+    {
+        "proxy": "",
+        "headers": {},
+        "options": {
+            "thinking_mode": true
+        },
+        "name": "Custom",
+        "api_base": "",
+        "api_key": "",
+        "default_model": ""
+    }
+]

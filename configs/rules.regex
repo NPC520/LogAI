@@ -1,0 +1,19 @@
+# 威胁检测规则 (正则表达式)
+
+# SQL注入检测
+(?i)(select|union|insert).*(from|into)
+
+# 路径遍历/LFI检测
+(?i)(\.\.\/|%2e%2e\/|etc\/passwd)
+
+# XSS检测
+(?i)(<script>|alert\(|onerror=)
+
+# 命令注入检测
+(?i)(;|`|\$\(|\|\|).*(id|whoami|cat |wget )
+
+# 云元数据访问检测
+(?i)(169\.254\.169\.254)
+
+# SQL注入变体
+(?i)(admin\'|\' OR |\'=\d+\' OR )

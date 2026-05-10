@@ -1,0 +1,10 @@
+2024-05-01 10:00:01 TCP 192.168.1.1:12345 -> 10.0.0.1:80 GET /login.php?user=admin HTTP/1.1
+2024-05-01 10:00:02 TCP 192.168.1.1:12346 -> 10.0.0.1:80 POST /api/data HTTP/1.1
+2024-05-01 10:00:03 TCP 192.168.1.2:4444 -> 10.0.0.1:80 GET /index.php?page=../../etc/passwd HTTP/1.1
+2024-05-01 10:00:04 TCP 192.168.1.3:5555 -> 10.0.0.1:80 GET /search.php?id=1%27%20OR%20%271%27=%271 HTTP/1.1
+2024-05-01 10:00:05 TCP 192.168.1.4:6666 -> 10.0.0.1:80 POST /submit.php HTTP/1.1 <script>alert('XSS')</script>
+2024-05-01 10:00:06 TCP 192.168.1.5:7777 -> 10.0.0.1:80 GET /exec.php?cmd=;id HTTP/1.1
+2024-05-01 10:00:07 TCP 192.168.1.6:8888 -> 10.0.0.1:80 GET /metadata.php?url=http://169.254.169.254/latest/meta-data/ HTTP/1.1
+2024-05-01 10:00:08 TCP 192.168.1.7:9999 -> 10.0.0.1:80 GET /api/user?name=admin' OR '1'='1 HTTP/1.1
+2024-05-01 10:00:09 UDP 10.0.0.2:53 -> 8.8.8.8:53 DNS Query example.com
+2024-05-01 10:00:10 TCP 192.168.1.8:1111 -> 10.0.0.1:22 SSH Connection
