@@ -47,8 +47,6 @@
 
 ## 📸 界面预览
 
-## 📸 界面预览
-
 | 分析结果 | 攻击链时间轴 | 攻击地图 |
 |:---:|:---:|:---:|
 | ![分析结果](screenshots/main.png) | ![攻击链](screenshots/timeline.png) | ![攻击地图](screenshots/map.png) |
