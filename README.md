@@ -86,6 +86,7 @@ python main.py
 前往 Releases 页面 下载 LogAI_Setup_2.0.0.exe，双击安装即可。
 ```
 
+```bash
 
 📁 项目结构
 text
@@ -119,6 +120,7 @@ LogAI/
 ├── tests/                  # 单元测试（34 个，全部通过）
 ├── tiles/                  # 离线地图瓦片（2-4 级）
 └── plugins/                # 插件目录（解析器/导出器扩展）
+
 🛠 技术栈
 层级	技术
 GUI 框架	PySide6（Qt for Python）
@@ -134,6 +136,7 @@ GeoIP	MaxMind GeoLite2
 打包为 EXE
 powershell
 pyinstaller LogAI.spec
+```
 # 输出：dist/LogAI.exe（约 300MB，含所有依赖）
 制作安装程序
 安装 Inno Setup 7
