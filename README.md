@@ -47,11 +47,13 @@
 
 ## 📸 界面预览
 
+## 📸 界面预览
+
 | 分析结果 | 攻击链时间轴 | 攻击地图 |
 |:---:|:---:|:---:|
-| *(截图待补充)* | *(截图待补充)* | *(截图待补充)* |
+| ![分析结果](screenshots/main.png) | ![攻击链](screenshots/timeline.png) | ![攻击地图](screenshots/map.png) |
 
-> 运行程序后按 `Win+Shift+S` 截图，保存到 `screenshots/` 文件夹，命名为 `main.png`、`timeline.png`、`map.png`，然后替换上面的占位文字为 `![截图](screenshots/main.png)` 即可。
+> 分析结果表格（高危红色高亮） | 攻击链时间轴（MITRE ATT&CK 标注） | 攻击来源地图（离线瓦片 + 红点标记）
 
 ---
 
@@ -82,6 +84,8 @@ pip install -r requirements.txt
 python main.py
 下载安装包（无需 Python 环境）
 前往 Releases 页面 下载 LogAI_Setup_2.0.0.exe，双击安装即可。
+```
+
 
 📁 项目结构
 text
