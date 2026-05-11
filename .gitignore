@@ -13,3 +13,4 @@ build/
 *.pcapng
 Output/
 tests/test.log
+feedback.db

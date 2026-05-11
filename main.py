@@ -1,10 +1,24 @@
 import sys
+import os
 from PySide6.QtWidgets import QApplication
-from PySide6.QtGui import QPalette, QColor
+from PySide6.QtGui import QPalette, QColor, QIcon
 from ui.main_window import MainWindow
+
+def get_resource_path(relative_path):
+    """获取资源文件路径（支持打包后）"""
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 def main():
     app = QApplication(sys.argv)
+    
+    # 设置应用程序图标
+    icon_path = get_resource_path("icon.ico")
+    if os.path.exists(icon_path):
+        app.setWindowIcon(QIcon(icon_path))
     
     # 设置 Fusion 样式
     app.setStyle("Fusion")

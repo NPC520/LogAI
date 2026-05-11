@@ -124,7 +124,7 @@ class LogLoader:
                 if sample.count(delim) > sample.count(detected_delimiter):
                     detected_delimiter = delim
 
-            df = pd.read_csv(file_path, delimiter=detected_delimiter, encoding='utf-8', errors='ignore')
+            df = pd.read_csv(file_path, delimiter=detected_delimiter, encoding='utf-8', on_bad_lines='skip')
             
             # 列名映射
             timestamp_cols = ['timestamp', 'time', 'datetime', 'date', 'ts']
@@ -196,7 +196,7 @@ class LogLoader:
         )
         # 格式2: [时间] IP -> IP 内容
         pattern2 = re.compile(
-            r'(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})\s+([\d.]+)\s*->?\s*([\d.]+)\s*(.*)',
+            r'(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})\s+([\d.]+)\s*(?:->)?\s*([\d.]+)\s*(.*)',
             re.IGNORECASE
         )
         # 格式3: IP:端口 -> IP:端口 内容
